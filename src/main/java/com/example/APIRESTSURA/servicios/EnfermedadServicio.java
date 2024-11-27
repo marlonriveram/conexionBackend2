@@ -29,7 +29,7 @@ public class EnfermedadServicio {
     // buscar los Enfermedades
     public List<Enfermedad> buscarEnfermedades() throws  Exception{
         try {
-            return   repositorioEnfermedad.findAll();
+            return repositorioEnfermedad.findAll();
         }catch (Exception error){
             throw new Exception(error.getMessage());
         }
