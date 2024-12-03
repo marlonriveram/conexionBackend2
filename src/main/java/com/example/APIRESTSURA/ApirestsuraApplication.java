@@ -13,6 +13,7 @@ public class ApirestsuraApplication {
 		SpringApplication.run(ApirestsuraApplication.class, args);
 	}
 
+
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
